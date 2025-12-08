@@ -5,7 +5,7 @@ import { useRouter } from "next/navigation";
 import { useEffect, useState, use } from "react";
 
 export default function ConfirmPage(props) {
-  const params = use(props.params);
+  const { id } = props.params;
   const router = useRouter();
   const id = params.id;
   const [customer, setCustomer] = useState([]);
