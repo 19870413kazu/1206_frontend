@@ -7,7 +7,6 @@ import { useEffect, useState, use } from "react";
 export default function ConfirmPage(props) {
   const { id } = props.params;
   const router = useRouter();
-  const id = params.id;
   const [customer, setCustomer] = useState([]);
 
   useEffect(() => {
