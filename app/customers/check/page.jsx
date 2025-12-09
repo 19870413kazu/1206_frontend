@@ -1,4 +1,4 @@
-import OneCustomerInfoCard from "@/app/components/one_customer_info_card.jsx";
+import OneCustomerInfoCard from "../../components/one_customer_info_card.jsx";
 
 async function fetchCustomer(id) {
   if (!id) return null; // ★ ビルド時の undefined 対策
