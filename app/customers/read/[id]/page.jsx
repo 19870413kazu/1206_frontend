@@ -9,7 +9,7 @@ import dynamic from "next/dynamic";
 
 // OneCustomerInfoCard を SSR せず、クライアント側でのみ動的に読み込むよう指定
 const OneCustomerInfoCard = dynamic(
-  () => import("@/app/components/one_customer_info_card.jsx"),
+  () => import("../../../components/one_customer_info_card.jsx"),
   {
     ssr: false,
   }
