@@ -25,7 +25,6 @@ jobs:
           npm install
           npm run build
 
-      # ★ ZIPは作らず、そのまま成果物を artifact にする
       - name: Upload artifact
         uses: actions/upload-artifact@v4
         with:
